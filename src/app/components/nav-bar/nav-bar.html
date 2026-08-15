@@ -1,0 +1,13 @@
+<div class="nav-bar">
+  <ul>
+    <li [class.active]="activeSection === 'about'" (click)="scrollTo('about')">About Me</li>
+
+    <li [class.active]="activeSection === 'projects'" (click)="scrollTo('projects')">
+      My Projects
+    </li>
+
+    <li [class.active]="activeSection === 'experience'" (click)="scrollTo('experience')">
+      My Experiences
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,16 @@
+<app-nav-bar
+  [activeSection]="activeSection()"
+  (sectionSelected)="onSectionSelected($event)"
+></app-nav-bar>
+
+<section id="about">
+  <app-about-me></app-about-me>
+</section>
+
+<section id="projects">
+  <app-my-projects></app-my-projects>
+</section>
+
+<!-- <section id="experience">
+  <app-my-experiences></app-my-experiences>
+</section> -->
