@@ -1,0 +1,125 @@
+.contact-section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 120px 30px 80px;
+}
+
+.contact-container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Section label */
+
+.section-label {
+  color: #64ffda;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+/* Heading */
+
+.contact-container h2 {
+  margin: 0;
+
+  color: #f5f5f5;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 58px;
+  line-height: 1.1;
+}
+
+.contact-container h2 span {
+  color: #64ffda;
+}
+
+/* Description */
+
+.contact-description {
+  max-width: 650px;
+  margin: 25px auto 50px;
+
+  color: #8f96a3;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Contact links */
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  min-width: 200px;
+  padding: 18px 22px;
+
+  background: #15181e;
+  border: 1px solid #292e38;
+  border-radius: 12px;
+
+  text-decoration: none;
+  text-align: left;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-6px);
+  border-color: #64ffda;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Icons */
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  border: 1px solid #2d333d;
+  border-radius: 8px;
+
+  color: #64ffda;
+
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Text */
+
+.contact-label {
+  color: #64ffda;
+
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.contact-item p {
+  margin: 4px 0 0;
+
+  color: #b8bec9;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
