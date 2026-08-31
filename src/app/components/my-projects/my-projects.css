@@ -119,8 +119,6 @@
   line-height: 1.7;
 }
 
-/* Technologies */
-
 .project-tech {
   display: flex;
   flex-wrap: wrap;
@@ -155,5 +153,5 @@
 }
 
 .project-link:hover {
-  transform: translateX(5px);
+  text-decoration: underline;
 }
