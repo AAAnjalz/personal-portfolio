@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './about-me.css',
 })
 export class AboutMe {
-
+  viewResume() {
+    window.open('adhikari-anjal-resume.pdf', '_blank');
+  }
 }

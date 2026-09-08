@@ -68,3 +68,19 @@ h1 span {
   color: #64ffda;
   transform: translateY(-2px);
 }
+.resume-btn {
+  margin-top: 20px;
+  border: none;
+  background-color: #64ffda;
+  padding: 15px;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.resume-btn:hover {
+  transform: translateY(-5px);
+}

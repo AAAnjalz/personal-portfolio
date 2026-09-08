@@ -1,14 +1,13 @@
 * {
   font-family: 'JetBrains Mono', monospace;
 }
-/* Overall page */
+
 body {
   margin: 0;
   background-color: #0f1115;
   color: #f5f5f5;
 }
 
-/* Navigation bar */
 .nav-bar {
   position: sticky;
   top: 0;
@@ -23,7 +22,6 @@ body {
   box-sizing: border-box;
 }
 
-/* Navigation list */
 .nav-bar ul {
   margin: 0;
   padding: 0;
