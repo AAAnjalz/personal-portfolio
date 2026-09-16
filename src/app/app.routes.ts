@@ -3,11 +3,11 @@ import { App } from './app';
 
 export const routes: Routes = [
   {
-    path: 'personal-portfolio',
+    path: '',
     component: App,
   },
   {
     path: '**',
-    redirectTo: 'personal-portfolio',
+    redirectTo: '',
   },
 ];
