@@ -9,8 +9,9 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 export class NavBar {
   @Input() activeSection = 'about';
   @Output() sectionSelected = new EventEmitter<string>();
-
+  menuOpen: boolean = false;
   scrollTo(section: string) {
     this.sectionSelected.emit(section);
+    this.menuOpen = false;
   }
 }

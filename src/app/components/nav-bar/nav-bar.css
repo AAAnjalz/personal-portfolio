@@ -48,3 +48,79 @@ body {
 .nav-bar li.active {
   color: #64ffda;
 }
+
+.menu-button {
+  display: none;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav-bar {
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+  }
+
+  /* Hamburger button */
+  .menu-button {
+    display: block;
+
+    margin-left: auto;
+
+    background: none;
+    border: none;
+
+    color: #64ffda;
+    font-size: 25px;
+
+    cursor: pointer;
+
+    position: relative;
+    z-index: 1002;
+  }
+
+  .nav-bar ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+
+    margin: 0;
+    padding: 100px 30px 30px;
+
+    background-color: #0f1115;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 40px;
+
+    box-sizing: border-box;
+
+    z-index: 1001;
+
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  .nav-bar ul.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+  .nav-bar li {
+    font-size: 20px;
+  }
+}

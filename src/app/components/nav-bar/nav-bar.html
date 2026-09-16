@@ -1,5 +1,6 @@
 <div class="nav-bar">
-  <ul>
+  <button class="menu-button" (click)="menuOpen = !menuOpen">☰</button>
+  <ul [class.open]="menuOpen">
     <li [class.active]="activeSection === 'about'" (click)="scrollTo('about')">About Me</li>
 
     <li [class.active]="activeSection === 'projects'" (click)="scrollTo('projects')">

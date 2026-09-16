@@ -161,3 +161,30 @@
   font-family: 'Inter', sans-serif;
   font-size: 12px;
 }
+
+@media (max-width: 900px) {
+  .experience-section {
+    padding: 90px 25px;
+  }
+  .section-header {
+    margin-bottom: 45px;
+  }
+  .section-header h2 {
+    font-size: 42px;
+  }
+  .section-description {
+    font-size: 15px;
+  }
+  .experience-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .experience-card {
+    min-height: auto;
+    padding: 30px;
+  }
+  .experience-card h3 {
+    font-size: 27px;
+  }
+}
